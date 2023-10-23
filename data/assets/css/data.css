@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+
+body {
+    background: linear-gradient(
+        72deg,
+        #0eb,
+        #8959ff
+    );
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+#container {
+    width: 1000px;
+    height: 500px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#horarios li{
+    position: relative;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
